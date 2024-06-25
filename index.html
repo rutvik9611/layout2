@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <!--  https://themesvila.com/html-templates/lovelyshop/  -->
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstarp -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Owl carosual -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- Top Header -->
+    <header class="py-2 border-bottom">
+        <div class="container">
+            <div class="main_header d-flex justify-content-between">
+                <div class="left_info d-flex">
+                    <div class="single_info me-3">
+                        <i class="fa-solid fa-mobile-screen me-1"></i>
+                        <span class="font">+0123456789</span>
+                    </div>
+                    <div class="two_info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span class="font">Example@gmail.Com</span>
+                    </div>
+                </div>
+                <div class="right_info">
+                    <div class="">
+                        <i class="fa-regular fa-user"></i>
+                        <span class="me-3 font">My Account</span>
+                        <i class="fa-solid fa-book-open"></i>
+                        <span class="me-3 font">Language</span>
+                        <i class="fa-solid fa-dollar-sign me-1"></i>
+                        <span class="font">Currency</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Navbar -->
+    <div class="nav_header">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-4 col-sm-12 col-md-12">
+                    <a href="index.html" class="logo">
+                        <img src="image/logo.png" alt="" class="mt-3">
+                    </a>
+                </div>
+                <div class="col-lg-8">
+                    <nav class="navbar navbar-expand-lg mt-3">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link font me-1" aria-current="page" href="#">HOME</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link font me-1" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            SHOP <i class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item font" href="#">PRODUCT DETAILS</a></li>
+                                            <li><a class="dropdown-item font" href="#">CART</a></li>
+                                            <li><a class="dropdown-item font" href="#">CHECKOUT</a></li>
+                                            <li><a class="dropdown-item font" href="#">WISKLIST</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link font me-1" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            MEN<i class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item font" href="#">BLAZERS</a></li>
+                                            <li><a class="dropdown-item font" href="#">JACEKTS</a></li>
+                                            <li><a class="dropdown-item font" href="#">T-SHIRT</a></li>
+                                            <li><a class="dropdown-item font" href="#">COLLECTIONS</a></li>
+                                            <li><a class="dropdown-item font" href="#">JENS PANTS</a></li>
+                                            <li><a class="dropdown-item font" href="#">SPORT SHOES</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link font me-1" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            WOMEN<i class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item font" href="#">BLAZERS</a></li>
+                                            <li><a class="dropdown-item font" href="#">JACEKTS</a></li>
+                                            <li><a class="dropdown-item font" href="#">T-SHIRT</a></li>
+                                            <li><a class="dropdown-item font" href="#">COLLECTIONS</a></li>
+                                            <li><a class="dropdown-item font" href="#">JENS PANTS</a></li>
+                                            <li><a class="dropdown-item font" href="#">SPORT SHOES</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link font me-1" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            PAGES<i class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item font" href="#">LEFT SIDEBAR BLOG</a></li>
+                                            <li><a class="dropdown-item font" href="#">RIGHT SIDEBAR BLOG</a></li>
+                                            <li><a class="dropdown-item font" href="#">FULL WIDTH BLOG</a></li>
+                                            <li><a class="dropdown-item font" href="#">BLOG DETAILS</a></li>
+                                            <li><a class="dropdown-item font" href="#">ABOUT US</a></li>
+                                            <li><a class="dropdown-item font" href="#">CONTACTS US</a></li>
+                                            <li><a class="dropdown-item font" href="#">404 PAGE</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font me-1">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass me-3"></i>
+                        <i class="fa-solid fa-cart-arrow-down me-4"></i>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="owl-carousel owl-theme text-center" id="slider1">
+        <div class="item">
+            <img src="image/slider-1.jpg" alt="" class="img-slide">
+            <div class="text-slide mx-auto animate__animated animate__backInUp">
+                <p class="text-3xl font-bold text-white ">Men Collection</p>
+                <h1 class="fonts">popular style</h1>
+                <h4 class="text-white font-bold py-3 ">Big Sale of This Week 50% off</h4>
+                <a href="#" class="px-8 bg-white mt-5 link">Shop Now</a>
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/slider-2.jpg" alt="" class="img-slide">
+            <div class="text-slide">
+                <div class="text-slide mx-auto animate__animated animate__backInUp">
+                    <p class="text-3xl font-bold text-white ">New Year 2020</p>
+                    <h1 class="fonts ">popular style</h1>
+                    <h4 class="text-white font-bold py-3 ">Big Sale of This Week 50% off</h4>
+                    <a href="#" class="px-8 bg-white mt-5 link">Shop Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/slider-3.jpg" alt="" class="img-slide">
+            <div class="text-slide">
+                <div class="text-slide mx-auto animate__animated animate__backInUp">
+                    <p class="text-3xl font-bold text-white ">Women Fashion</p>
+                    <h1 class="fonts ">popular style</h1>
+                    <h4 class="text-white font-bold py-3 ">Big Sale of This Week 50% off</h4>
+                    <a href="#" class="px-8 bg-white mt-5 link">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- product details -->
+    <section class="product py-5">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box">
+                        <div class="single_product">
+                            <img src="image/promo-1.png" alt="" class="img-fluid">
+                            <div class="product_details">
+                                <h3 class="p_title font">Men Fashion</h3>
+                                <span class="p_name font">Jackets</span>
+                                <a href="#" class="shop_btn font">Shop Now
+                                    <i class="fa-solid fa-circle-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box">
+                        <div class="single_product">
+                            <img src="image/promo-2.png" alt="" class="img-fluid">
+                            <div class="product_details">
+                                <h3 class="p_title font">Women Fashion</h3>
+                                <span class="p_name font">Bag</span>
+                                <a href="#" class="shop_btn font">Shop Now
+                                    <i class="fa-solid fa-circle-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box">
+                        <div class="single_product">
+                            <img src="image/promo-3.png" alt="" class="img-fluid">
+                            <div class="product_details">
+                                <h3 class="p_title font">Baby Fashion</h3>
+                                <span class="p_name font">Cloths</span>
+                                <a href="#" class="shop_btn font">Shop Now
+                                    <i class="fa-solid fa-circle-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="single_product">
+                        <img src="image/promo-4.png" alt="" class="img-fluid">
+                        <div class="product_details">
+                            <h3 class="p_title font">Medical Equepment</h3>
+                            <span class="p_name font">Thermometer</span>
+                            <a href="#" class="shop_btn font">Shop Now
+                                <i class="fa-solid fa-circle-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="single_product">
+                        <img src="image/promo-5.png" alt="" class="img-fluid">
+                        <div class="product_details">
+                            <h3 class="p_title font">Surgical Lab</h3>
+                            <span class="p_name font">Face Mask</span>
+                            <a href="#" class="shop_btn font">Shop Now
+                                <i class="fa-solid fa-circle-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Product -->
+    <section class="our_product">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-12 text-center">
+                    <div class="sec_title">
+                        <h2>Our <span>Products</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="product_btn">
+                    <a href="#" class="px-8 mt-5 link btn1 font">ALL</a>
+                    <a href="#" class="px-8 link btn2 font">SALE</a>
+                    <a href="#" class="px-8 link btn2 font">BESTSELLER</a>
+                    <a href="#" class="px-8 link btn2 font">FEATURED</a>
+                </div>
+            </div>
+
+            <div class="row d-flex">
+                <div class="col-lg-3 col-md-6 col-sm-12 py-5">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-1.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 py-5">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-2.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 py-5">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-3.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 py-5">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-5.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/produc_5.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-6.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-7.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-8.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sale -->
+    <section class="sale gary_selection py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="special_img">
+                        <img src="image/special.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-start">
+                    <div class="special_info">
+                        <h2 class="font">50% Off</h2>
+                        <h3 class="font">
+                            Winter Falsh Sale
+                            <br>
+                            End Soon
+                        </h3>
+                        <p class="text-black">lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed risus sagittis, fringilla
+                            ipsum ut, bibendum elit. Pellentesque eget augue efficitur, mattis dui vitae, sollicitudin
+                            nisl.</p>
+                        <div class="count_down">
+                            <img src="image/count.png" alt="" class="img-fluid">
+                        </div>
+                        <a href="#" class="px-8 main_btn link">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- fe product -->
+    <section class="fe_product py-5">
+        <div class="container">
+            <div class="sec_title">
+                <h2 class="text-center">Featured <span>Products</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 py-5">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-1.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 py-5">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-2.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 py-5">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-3.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 py-5">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-5.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/produc_5.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-6.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-7.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_product1">
+                        <div class="item1">
+                            <img src="image/product-8.jpg" alt="" class="img-fluid">
+                            <div class="new_badge font">New</div>
+                        </div>
+                        <div class="product_btm_text">
+                            <h4>Product Title</h4>
+                            <div class="p_rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price font">$123.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial slider -->
+    <div class="testimoinal">
+        <div class="bg-trans">
+            <div class="container">
+                <div class="owl-carousel owl-theme" id="slider2">
+                    <div class="item d-flex">
+                        <img src="image/1.jpg" alt="" class="img-fluid">
+                        <div class="content">
+                            <p class=" text-white ms-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis.</p>
+                            <h3 class="ms-4">Williamson - <span class="text-white">Themesvila</span></h3>
+                        </div>
+                    </div>
+                    <div class="item d-flex">
+                        <img src="image/2.jpg" alt="" class="img-fluid">
+                        <div class="content">
+                            <p class=" text-white ms-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis.</p>
+                            <h3 class="ms-4">Kristina - <span class="text-white">Themesvila</span></h3>
+                        </div>
+                    </div>
+                    <div class="item d-flex">
+                        <img src="image/3.jpg" alt="" class="img-fluid">
+                        <div class="content">
+                            <p class=" text-white ms-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis.</p>
+                            <h3 class="ms-4">Kristina - <span class="text-white">Themesvila</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog section -->
+    <section class="blog py-5">
+        <div class="container">
+            <div class="sec_title">
+                <h2 class="text-center">Latest<span> Blog</span></h2>
+            </div>
+            <div class="row py-2">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single_blog">
+                        <div class="single_blog_img">
+                            <a href="#">
+                                <img src="image/blog3.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>.
+                        <div class="blog_content">
+                            <span class="blog_date">20 Octobar 2020</span>
+                            <h4 class="blog_title">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                            </h4>
+                            <div class="blog_icon">
+                                <i class="fa-regular fa-user"></i>
+                                <span class="me-3">Admin</span>
+                                <i class="fa-regular fa-message"></i>
+                                <span class="me-3">2 comments</span>
+                                <i class="fa-regular fa-heart"></i>
+                                <span>1 Like</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single_blog">
+                        <div class="single_blog_img">
+                            <a href="#">
+                                <img src="image/blog2.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>.
+                        <div class="blog_content">
+                            <span class="blog_date">20 Octobar 2020</span>
+                            <h4 class="blog_title">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                            </h4>
+                            <div class="blog_icon">
+                                <i class="fa-regular fa-user"></i>
+                                <span class="me-3">Admin</span>
+                                <i class="fa-regular fa-message"></i>
+                                <span class="me-3">10 comments</span>
+                                <i class="fa-regular fa-heart"></i>
+                                <span>5 Like</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single_blog">
+                        <div class="single_blog_img">
+                            <a href="#">
+                                <img src="image/blog1.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>.
+                        <div class="blog_content">
+                            <span class="blog_date">20 Octobar 2020</span>
+                            <h4 class="blog_title">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                            </h4>
+                            <div class="blog_icon">
+                                <i class="fa-regular fa-user"></i>
+                                <span class="me-3">Admin</span>
+                                <i class="fa-regular fa-message"></i>
+                                <span class="me-3">5 comments</span>
+                                <i class="fa-regular fa-heart"></i>
+                                <span>3 Like</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- process -->
+    <section class="process">
+        <div class="container">
+            <div class="row text-center d-flex">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_process">
+                        <div class="p_icon">
+                            <i class="fa-solid fa-truck mb-lg-3"></i>
+                        </div>
+                        <div class="process_content">
+                            <h3>Free Shipping</h3>
+                            <p class="text-black">Lorem Ipsum is simply <br>dummy printing </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_process">
+                        <div class="p_icon">
+                            <i class="fa-solid fa-dollar-sign mb-lg-3"></i>
+                        </div>
+                        <div class="process_content">
+                            <h3>Cash On Delivery</h3>
+                            <p class="text-black">Lorem Ipsum is simply <br>dummy printing </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_process">
+                        <div class="p_icon">
+                            <i class="fa-solid fa-headphones mb-lg-3"></i>
+                        </div>
+                        <div class="process_content">
+                            <h3>Support 24/7</h3>
+                            <p class="text-black">Lorem Ipsum is simply <br>dummy printing </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single_process">
+                        <div class="p_icon">
+                            <i class="fa-regular fa-clock mb-lg-3"></i>
+                        </div>
+                        <div class="process_content">
+                            <h3>Opening All Week</h3>
+                            <p class="text-black">Lorem Ipsum is simply <br>dummy printing </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial -->
+    <div class="py-4">
+        <div class="container p-4">
+            <div class="owl-carousel owl-theme bg-white" id="slider">
+                <div class="item d-flex justify-content-center">
+                    <img src="image/1.png" alt="" class="w-50">
+                </div>
+                <div class="item d-flex justify-content-center">
+                    <img src="image/2.png" alt="" class="w-50">
+                </div>
+                <div class="item d-flex justify-content-center">
+                    <img src="image/3.png" alt="" class="w-50">
+                </div>
+                <div class="item d-flex justify-content-center">
+                    <img src="image/4.png" alt="" class="w-50">
+                </div>
+                <div class="item d-flex justify-content-center">
+                    <img src="image/5.png" alt="" class="w-50">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-lg-3">
+                    <div class="single_footer">
+                        <h4 class="sf_title">Contacts</h4>
+                        <p>
+                            4060 Reppert Coal Road Jackson,
+                            <br>
+                            MS 39201 USA
+                        </p>
+                        <p>(+123) 685 78</p>
+                        <p>(+064) 987 245</p>
+                        <p>Contact@yourcompany.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single_footer">
+                        <h4 class="sf_title">Information</h4>
+                        <p>About Us</p>
+                        <p>Delivery Information</p>
+                        <p>Privacy Policy</p>
+                        <p>Terms & Conditions</p>
+                        <p>Contact Us</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single_footer">
+                        <h4 class="sf_title">Services</h4>
+                        <p>Returns</p>
+                        <p>Site Map</p>
+                        <p>Wish List</p>
+                        <p>My Account</p>
+                        <p>Order History</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single_footer">
+                        <h4 class="sf_title">Newsletter</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                        <form method="post" class="sf_input">
+                            <input type="email" placeholder="Enter Your Email" id="email">
+                            <button type="submit"><i class="fa-solid fa-angle-right"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="ft_bt_area py-4">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-sm-4">
+                        <div class="ft_icon d-flex">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="text-center copy_writer">© 2020 All Rights Reserved LovelyShop</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="ft_payment text-end">
+                            <img src="image/card.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jquery -->
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+
+    <!-- Owl carosal -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
